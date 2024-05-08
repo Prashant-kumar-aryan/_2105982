@@ -27,8 +27,6 @@ export const getProducts = async (req, res) => {
   }
 };
 
-export default router;
-
 export const getAuthToken = async (req, res) => {
   try {
     // Make a request to the external API to obtain the access token
